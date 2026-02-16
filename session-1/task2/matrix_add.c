@@ -16,5 +16,22 @@
     Store your answer in matrix c
     Print your final answer
     */
-    return 0;
+   for(int i=0; i<4; i++) {
+      for(int j=0; j<4;j++) {
+         a[i][j] = 1;
+         b[i][j] = 1;
+      }
+   }
+
+   for(int i=0; i<4; i++) {
+      printf("\n");
+      for(int j=0; j<4;j++) {
+         c[i][j] = a[i][j] + b[i][j];
+         printf("%.0f ", c[i][j]);
+      }
+   }
+
+   
+
+    return 0; 
  }
