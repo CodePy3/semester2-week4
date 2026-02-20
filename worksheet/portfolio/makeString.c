@@ -19,5 +19,5 @@ int main( int argc, char **argv ) {
 
     printf("%s\n",buffer); // use only this single print statement in your submitted code
 
-    // return 0;
+    return 0;
 }
