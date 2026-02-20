@@ -3,12 +3,13 @@
 
 int main( void ) {
     char input[10];
+    char input2[10];
 
-    int count = scanf("%s",input);
+    scanf("%s %s",input, input2);
     //int count = scanf("%9s",input);
 
-    printf("Read %d value\n",count);
-    printf("Values: %s\n",input);
+    // printf("Read %d value\n",count);
+    printf("Echo: %s %s\n",input, input2);
 
     return 0;
 }

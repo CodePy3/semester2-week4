@@ -3,8 +3,8 @@
 
 int main( void ) {
 
-    char charArray[5] = {'h','e','l','l','o'};
-    char charString[] = "hello";
+    char charArray[6] = {'h','e','l','l','o','\0'};
+    char charString[] = "CompSci";
  
     printf("As array: %s\n",charArray);     // strange behaviour?
     printf("Length of array: %ld\n",sizeof(charArray));   // expected result
