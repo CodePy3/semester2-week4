@@ -15,8 +15,8 @@ int main( void ) {
 
     char buffer[10];
     fgets(buffer, sizeof(buffer) , stdin);
-    int k,i; char l;
-    sscanf(buffer, "%d%l%d", &k,&l,&i);
+    int k,i;
+    sscanf(buffer, "%d%d", &k,&i);
     int sum = k+i;
     printf("%d \n", sum);  
 
